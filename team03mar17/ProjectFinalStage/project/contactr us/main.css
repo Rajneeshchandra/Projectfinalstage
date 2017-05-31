@@ -1,0 +1,32 @@
+@charset "utf-8";
+/* CSS Document */
+
+h1 {
+	text-align:center;
+	position: absolute; 
+    top: 0; 
+    left: 0; 
+    width: 100%; 
+	height:100%;
+}
+h3 {
+	text-align:center;
+	color: orange;
+}
+p {
+	text-align:center;
+	font-style:italic;
+}
+h5{
+	align-self:auto;
+}
+
+.relative{position:relative; width:600px;}
+.absolute-text{position:absolute; bottom:0; font-size:24px; font-family:"vedana"; background:rgba(251,251,251,0.5);
+padding:10px 20px; width:100%; text-align:center;}
+.absolute-text a{font-size:16px; color:#b92b27;}
+
+img:hover {
+    opacity: 0.5;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
+}

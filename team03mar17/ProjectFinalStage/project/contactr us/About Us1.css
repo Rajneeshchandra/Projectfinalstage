@@ -1,0 +1,29 @@
+@charset "utf-8";
+/* CSS Document */
+p {
+	text-align:center;
+	font-style:italic;
+	color:white;
+	font-size:x-large;
+	
+}
+html{
+  position:relative; 
+  min-height: 100%;
+}
+html,body{
+  margin:0;
+  padding:0;
+}
+.pageContentWrapper{
+  margin-bottom:0;
+} 
+.footer{
+    position:absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height:0;
+    background:white;
+	
+}
